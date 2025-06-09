@@ -1,71 +1,81 @@
-# Loan-Approval-and-Loan-Amount-Prediction
-🏦 Loan Approval & Loan Amount Prediction
+# 🏦 Loan Approval & Loan Amount Prediction
+
 This project aims to predict whether a loan application will be approved and estimate the approved loan amount using machine learning models. It uses real-world data and implements various algorithms for classification and regression tasks.
 
-📌 Project Objectives
-Predict loan approval status (Yes/No)
+---
 
-Predict expected loan amount
+## 📌 Project Objectives
 
-Compare performance of multiple ML models
+* Predict loan approval status (Yes/No)
+* Predict expected loan amount
+* Compare performance of multiple ML models
+* Build a simple GUI using Tkinter
 
-Build a simple GUI using Tkinter
+---
 
-📁 Files Included
-train.csv: Dataset used for training and testing
+## 📁 Files Included
 
-LOAN_STATUS_PREDICTION.ipynb: Classification model for loan approval
+* `train.csv`: Dataset used for training and testing
+* `LOAN_STATUS_PREDICTION.ipynb`: Classification model for loan approval
+* `LOAN_AMOUNT_PREDICTION.ipynb`: Regression model for loan amount
+* `PYTHON_PREDICTION.py`: Integrated GUI for prediction
+* `README.md`: Project overview and documentation
 
-LOAN_AMOUNT_PREDICTION.ipynb: Regression model for loan amount
+---
 
-PYTHON_PREDICTION.py: Integrated GUI for prediction
+## 🛠️ Technologies Used
 
-README.md: Project overview and documentation
+* Python 3.x
+* Pandas, NumPy
+* Matplotlib, Seaborn
+* Scikit-learn
+* Tkinter (for GUI)
+* PIL (Python Imaging Library)
 
-🛠️ Technologies Used
-Python 3.x
+---
 
-Pandas, NumPy
+## 🧠 Machine Learning Models Used
 
-Matplotlib, Seaborn
+### 🔹 Loan Status Prediction
 
-Scikit-learn
+* Support Vector Machine (SVM)
+* Random Forest
+* Decision Tree
+* Lasso Regression
+* Multiple Linear Regression
 
-Tkinter (for GUI)
+### 🔹 Loan Amount Prediction
 
-PIL (Python Imaging Library)
+* Random Forest Regression
+* Multiple Linear Regression
 
-🧠 Machine Learning Models Used
-🔹 Loan Status Prediction
-Support Vector Machine (SVM)
+---
 
-Random Forest
+## 📊 Evaluation Metrics
 
-Decision Tree
+* Accuracy
+* Mean Squared Error (MSE)
+* R-squared Score
+* Confusion Matrix (for classification)
 
-Lasso Regression
+---
 
-Multiple Linear Regression
+## 💻 How to Run
 
-🔹 Loan Amount Prediction
-Random Forest Regression
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Open the `.ipynb` files for model training
+4. Run `PYTHON_PREDICTION.py` for GUI-based interaction
 
-Multiple Linear Regression
+---
 
-📊 Evaluation Metrics
-Accuracy
+## 👨‍💻 Authors
 
-Mean Squared Error (MSE)
+* Ansh Dankhara
+* Kenil Dhola
+* Fenil Kakadiya
+  **GLS University - IMSc(IT) Batch 2021–2024**
 
-R-squared Score
+---
 
-Confusion Matrix (for classification)
-
-💻 How to Run
-Clone the repository
-
-Install dependencies: pip install -r requirements.txt
-
-Open the .ipynb files for model training
-
-Run PYTHON_PREDICTION.py for GUI-based interaction
+> This project integrates machine learning and user interface design to deliver accurate, real-world financial insights and a user-friendly prediction tool.
