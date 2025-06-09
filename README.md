@@ -69,13 +69,4 @@ This project aims to predict whether a loan application will be approved and est
 
 ---
 
-## 👨‍💻 Authors
-
-* Ansh Dankhara
-* Kenil Dhola
-* Fenil Kakadiya
-  **GLS University - IMSc(IT) Batch 2021–2024**
-
----
-
 > This project integrates machine learning and user interface design to deliver accurate, real-world financial insights and a user-friendly prediction tool.
